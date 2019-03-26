@@ -1,0 +1,186 @@
+html
+{
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    
+}
+
+* {
+    font-family: 'Exo', sans-serif;
+}    
+
+
+
+.container-fluid {
+    padding: 0;
+    
+}
+
+
+#navbar {
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    position: fixed;
+    margin-bottom:10vh;
+    
+   
+}
+
+.nav-menu {
+    height: 100%;
+    padding-top: 1em;
+}
+
+li {
+    display: inline;
+    text-decoration: none;
+    color: orange;
+   padding: 1em;
+   
+}
+
+a {
+  color: inherit; 
+}
+
+a:hover 
+{
+     color: rgb(17, 235, 17);
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+#welcome-section {
+    width: 100vw;
+    height: 100vh;
+    background-color: orange;
+   
+    
+}
+    .logo {
+        
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 5em;
+           
+          }
+    
+
+    .welcome-text {
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        font-size: 2em;
+        padding-top: 1em;
+    }
+
+#projects {
+    width: 100vw;
+    height: auto;
+    background-color: black;
+}
+
+.section-heading-projects {
+    text-align: center;
+    padding-top: 1em;
+    font-weight: bold;
+    font-size: 2em;
+    color: orange;
+}
+.thumbnails {
+    margin-left: 6em;
+    margin-right: 3em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    padding: 5px;
+    width: 30vw;
+    height: auto;
+  border: 1px solid #ddd;
+}
+    .thumbnails:hover {
+        
+            box-shadow: 0 0 4px 2px orange;
+          
+    }
+#contact  {
+    width: 100vw;
+    height: 90vh;
+    background-color: orange;
+    text-align: center;
+}
+
+.section-heading-contact {
+    text-align: center;
+    padding-top: 1em;
+    font-weight: bold;
+    font-size: 2em;
+    color: black;
+}
+
+.contact-icons {
+    margin-top: 3em;
+    padding: 3em;
+   
+}
+
+@media only screen and (max-width: 600px) {
+    .thumbnails {
+        width: 100vw;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    #contact {
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 600px)and (max-width: 759px) {
+    .thumbnails {
+        width: 40vw;
+        margin: 1em;
+    }
+
+    .contact-icons {
+        width: 40vw;
+    }
+
+    #contact {
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 760px) and (max-width: 900px) {
+    .thumbnails {
+        width: 40vw;
+        margin: 2em;
+    }
+    .contact-icons {
+        width: 40vw;
+    }
+    #contact {
+        height: auto;
+    }
+}
+
+@media only screen and (min-width:900px) and (max-width: 1199px){
+
+#contact {
+    height: auto;
+}
+.contact-icons {
+    width: 40vw;
+}
+}
+@media only screen and (min-width: 1200px) {
+    .contact-icons {
+        margin-top: 3em;
+        padding: 3em;
+       
+    }
+}
